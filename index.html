@@ -1,0 +1,612 @@
+<html lang="{block:English}en{/block:English}{block:French}fr{/block:French}{block:German}de{/block:German}{block:Japanese}ja{/block:Japanese}{block:Italian}it{/block:Italian}{block:Spanish}es{/block:Spanish}{block:Polish}pl{/block:Polish}">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width">
+    
+    <meta name="image:Logo" content="" />
+    
+    <meta name="image:Slideshow1" content="" />
+    <meta name="image:Slideshow2" content="" />
+    <meta name="image:Slideshow3" content="" />
+    <meta name="image:Slideshow4" content="" />
+    <meta name="image:Slideshow5" content="" />
+    <meta name="image:Slideshow6" content="" />
+    <meta name="image:Slideshow7" content="" />
+    <meta name="image:Slideshow8" content="" />
+    <meta name="image:Slideshow9" content="" />
+    <meta name="image:Slideshow10" content="" />
+    
+    <meta name="if:Show Menu" content="1"/>
+    
+    <meta name="text:Google Analytics ID" content="" />
+    
+    <meta name="text:Spotify Playlist ID" content="150271464" />
+    
+    <meta name="text:Buy Itunes Url" content="" />
+    <meta name="text:Buy Googleplay Url" content="" />
+    <meta name="text:Buy Beatport Url" content="" />
+    
+    <meta name="text:Apple Url" content="" />
+    <meta name="text:Behance Url" content="" />
+    <meta name="text:Dribbble Url" content="" />
+    <meta name="text:Facebook Url" content="" />
+    <meta name="text:Foursquare Url" content="" />
+    <meta name="text:Flickr Url" content="" />
+    <meta name="text:Github Url" content="" />
+    <meta name="text:Google Url" content="" />
+    <meta name="text:Instagram Url" content="" />
+    <meta name="text:Linkedin Url" content="" />
+    <meta name="text:Pinterest Url" content="" />
+    <meta name="text:Reddit Url" content="" />
+    <meta name="text:Skype Url" content="" />
+    <meta name="text:Soundcloud Url" content="" />
+    <meta name="text:Spotify Url" content="" />
+    <meta name="text:Stumbleupon Url" content="" />
+    <meta name="text:Tumblr Url" content="" />
+    <meta name="text:Twitter Url" content="" />
+    <meta name="text:Vine Url" content="" />
+    <meta name="text:Vimeo Url" content="" />
+    <meta name="text:Xing Url" content="" />
+    <meta name="text:Yahoo Url" content="" />
+    <meta name="text:Youtube Url" content="" />
+    
+    <meta name="color:Dark" content="#1B1B1B" />
+    <meta name="color:Light" content="#FFFFFF" />
+    <meta name="color:Variant" content="#ff2700" />
+    
+    <title>{Title}{block:PostSummary} &mdash; {PostSummary}{/block:PostSummary} {block:SearchPage}{lang:Search results for SearchQuery} - {/block:SearchPage}</title>
+    <link rel="apple-touch-icon" href="{PortraitURL-128}">
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">{block:Description}
+    <meta name="description" content="{MetaDescription}" />{/block:Description}
+
+    <link href='http://fonts.googleapis.com/css?family=Exo+2:400,100,100italic,200,200italic,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://static.tumblr.com/v7susgd/Zo6n66r81/jquery.mcustomscrollbar.css" rel="stylesheet">
+    <!--
+    	<link rel="stylesheet" href="your-external-stylesheet-here-if-you-wish" type="text/css" media="all">
+    	Upload at http://www.tumblr.com/themes/upload_static_file
+    -->
+
+    <style type="text/css">
+    /* Editable reset */
+    /* http://meyerweb.com/eric/tools/css/reset/  | v2.0 | 20110126 | License: none (public domain) */
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, 
+    address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+    b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, 
+    tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, 
+    output, ruby, section, summary, time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+    body, html {height:100%;min-height:100%;}
+    body {
+        background: {color:Dark};
+        line-height: 1;
+        font-family: 'Exo 2', sans-serif;
+        font-size: 13px;
+        color:{color:Light};
+        overflow-x:hidden;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after, q:before, q:after {
+        content:'';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    /* ORLY THEME */
+    .wrapper {height:100%;}
+    #description {position:absolute;top:70px;left:30px;z-index:2;font-weight:600;letter-spacing:1px;color: {color:Variant};}
+    .avatar {position:absolute;top:30px;left:30px;z-index:2;}
+    .noavatar {font-size:38px;font-weight:900;font-style:italic;position:absolute;top:30px;left:30px;z-index:2;}
+    
+    .sdcloud-box {position:absolute;bottom:30px;left:30px;z-index:2;width:230px;}
+    .buy-bt {margin-top:6px;}
+    /* SOCIAL LINKS */
+    .links {position:absolute;top:30px;right:30px;z-index:2;}
+    .links ul {float: right;}
+    .links ul li {float: left;margin-left:5px;}
+    .links ul li.social a {display:block;color:{color:Variant};background-color: {color:Light};width:38px;height:38px;text-align: center;overflow: hidden;
+	-webkit-border-radius: 19px;
+	-moz-border-radius: 19px;
+	border-radius: 19px;
+    }
+    .links ul li.social a i {font-size: 20px;vertical-align: middle;line-height: 38px;}
+    .links ul li.social a:hover {background-color: {color:Variant};color:{color:Light};}
+    .links ul li.social a img {margin-top:4px;}
+    
+    .mmenu {position:absolute;bottom:30px;right:30px;z-index:2;}
+    .mmenu ul li a {color:{color:Light};font-size:14px;font-weight:600;text-transform:uppercase;text-decoration:none;}
+    .mmenu ul li a:hover {color:{color:Variant};}
+    .mmenu ul {float:right;list-style:none;}
+    .mmenu ul li {margin-left:10px;float:left;}
+    
+    /* SLIDESHOW */
+    #cycle-loader {
+		height:32px;
+		left:50%;
+		margin:-8px 0 0 -8px;
+		position:absolute;
+		top:50%;
+		width:32px;
+		z-index:999;
+		color:{color:Variant};
+		font-size:32px;
+	}
+	#maximage {display:none;position:fixed !important;}
+    .mc-hide-scrolls{overflow:hidden;}
+    body .mc-cycle {height:100%;left:0;overflow:hidden;position:fixed;top:0;width:100%;z-index:-1;}
+    div.mc-image {
+	-webkit-transition: opacity 1s ease-in-out; 
+	-moz-transition: opacity 1s ease-in-out; 
+	-o-transition: opacity 1s ease-in-out; 
+	transition: opacity 1s ease-in-out;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position:center center;
+	background-repeat:no-repeat;
+	height:100%;
+	overflow:hidden;
+	width:100%;
+    }
+    .mc-old-browser .mc-image {overflow:hidden;}
+    
+    /* FX */
+    .links ul li.social a, .links ul li.social a:hover,
+    .mmenu ul li a, .mmenu ul li a:hover {
+        -webkit-transition: all .2s ease-out;
+        -moz-transition: all .2s ease-out;
+        -o-transition: all .2s ease-out;
+        transition: all .2s ease-out;
+    }
+    #sidr {display:none;}
+    .sidr{display:none;position:absolute;position:fixed;top:0;height:100%;z-index:999999;width:290px;overflow-x:none;overflow-y:auto;background:{color:Dark};color:{color:Light};
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding:20px 0;}
+    .sidr .sidr-inner{padding:0 20px;}
+    .sidr.right{left:auto;right:-290px}
+    .sidr.left{left:-290px;right:auto}
+    
+    .sidr-class-post {margin-bottom:20px;padding-bottom:20px;border-bottom:3px solid {color:Variant};width:250px;}
+    .sidr-class-caption {padding-top:6px;font-style:italic;font-size:11px;}
+    .sidr-class-post a {color:{color:Variant};text-decoration:none;}
+    .sidr-class-post h3, a.sidr-class-link {font-size:15px;font-weight:900;padding-bottom:6px;}
+    .sidr-class-tags li {
+        display: inline;
+        list-style: none;
+    }
+    .sidr-class-tags li a {
+        display: inline-block;
+        padding: 6px;
+        text-decoration: none;
+        color: {color:Light};
+        background: {color:Variant};
+        border-radius:5px;
+        font-size:11px;
+        margin: 2px 0px 2px 2px;
+    } 
+    .sidr-class-tagged-title {
+        font-size:15px;font-weight:900;padding-bottom:6px;
+        color: {color:Light};
+        margin-bottom:20px;
+        padding-bottom:20px;
+        border-bottom:3px solid {color:Variant};
+        text-transform:uppercase;
+        width:250px;
+    }
+    .sidr-class-lks li {
+        float:left;
+        list-style: none;
+        width:32px !important;
+        height:32px !important;
+        margin: 2px 0px 2px 2px;
+    }
+    .sidr-class-lks li a, .sidr-class-lks li iframe {
+        padding: 6px;
+        text-decoration: none;
+        background: {color:Variant};
+        border-radius:5px;
+        font-size:11px;
+    } 
+    @media (min-width: 1px) and (max-width: 767px) {
+        .links {top:70px;right:auto;left:25px;}
+        .mmenu {bottom:30px;right:auto;left:25px;}
+        .sdcloud-box {bottom:50px;left:30px;}
+        #description {display:none;}
+        .avatar {top:30px;left:30px;}
+        .noavatar {top:30px;left:30px;}
+    }
+    {CustomCSS}
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+    <header>
+        {block:IfLogoImage}
+        <h1 class="avatar">
+            <a href="/">
+                <img src="{image:Logo}"/>
+            </a>
+        </h1> 
+        {/block:IfLogoImage}
+        {block:IfNotLogoImage}
+        <h1 class="noavatar">{Title}</h1>
+        {block:Description}
+        <p id="description">{Description}</p>
+        {/block:Description}
+        {/block:IfNotLogoImage}
+        <nav class="links">
+            <ul>
+                {block:IfAppleUrl}
+                    <li class="social"><a href="{text:Apple Url}" target="_blank"><i class="fa fa-apple"></i></a></li>
+                {/block:IfAppleUrl}
+                {block:IfBehanceUrl}
+                    <li class="social"><a href="{text:Behance Url}" target="_blank"><i class="fa fa-behance"></i></a></li>
+                {/block:IfBehanceUrl}
+                {block:IfDribbbleUrl}
+                    <li class="social"><a href="{text:Dribbble Url}" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+                {/block:IfDribbbleUrl}
+                {block:IfFacebookUrl}
+                    <li class="social"><a href="{text:Facebook Url}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                {/block:IfFacebookUrl}
+                {block:IfFoursquareUrl}
+                    <li class="social"><a href="{text:Foursquare Url}" target="_blank"><i class="fa fa-foursquare"></i></a></li>
+                {/block:IfFoursquareUrl}
+                {block:IfFlickrUrl}
+                    <li class="social"><a href="{text:Flickr Url}" target="_blank"><i class="fa fa-flickr"></i></a></li>
+                {/block:IfFlickrUrl}
+                {block:IfGithubUrl}
+                    <li class="social"><a href="{text:Github Url}" target="_blank"><i class="fa fa-github"></i></a></li>
+                {/block:IfGithubUrl}
+                {block:IfGoogleUrl}
+                    <li class="social"><a href="{text:Google Url}" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                {/block:IfGoogleUrl}
+                {block:IfInstagramUrl}
+                    <li class="social"><a href="{text:Instagram Url}" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                {/block:IfInstagramUrl}
+                {block:IfLinkedinUrl}
+                    <li class="social"><a href="{text:Linkedin Url}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                {/block:IfLinkedinUrl}
+                {block:IfPinterestUrl}
+                    <li class="social"><a href="{text:Pinterest Url}" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+                {/block:IfPinterestUrl}
+                {block:IfRedditUrl}
+                    <li class="social"><a href="{text:Reddit Url}" target="_blank"><i class="fa fa-reddit"></i></a></li>
+                {/block:IfRedditUrl}
+                {block:IfSkypeUrl}
+                    <li class="social"><a href="{text:Skype Url}" target="_blank"><i class="fa fa-skype"></i></a></li>
+                {/block:IfSkypeUrl}
+                {block:IfSoundcloudUrl}
+                    <li class="social"><a href="{text:Soundcloud Url}" target="_blank"><i class="fa fa-soundcloud"></i></a></li>
+                {/block:IfSoundcloudUrl}
+                {block:IfSpotifyUrl}
+                    <li class="social"><a href="{text:Spotify Url}" target="_blank"><i class="fa fa-spotify"></i></a></li>
+                {/block:IfSpotifyUrl}
+                {block:IfStumbleuponUrl}
+                    <li class="social"><a href="{text:Stumbleupon Url}"><i class="fa fa-stumbleupon"></i></a></li>
+                {/block:IfStumbleuponUrl}
+                {block:IfTumblrUrl}
+                    <li class="social"><a href="{text:Tumblr Url}" target="_blank"><i class="fa fa-tumblr"></i></a></li>
+                {/block:IfTumblrUrl}
+                {block:IfTwitterUrl}
+                    <li class="social"><a href="{text:Twitter Url}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                {/block:IfTwitterUrl}
+                {block:IfVineUrl}
+                    <li class="social"><a href="{text:Vine Url}" target="_blank"><i class="fa fa-vine"></i></a></li>
+                {/block:IfVineUrl}
+                {block:IfVimeoUrl}
+                    <li class="social"><a href="{text:Vimeo Url}" target="_blank"><i class="fa fa-vimeo"></i></a></li>
+                {/block:IfVimeoUrl}
+                {block:IfXingUrl}
+                    <li class="social"><a href="{text:Xing Url}" target="_blank"><i class="fa fa-xing"></i></a></li>
+                {/block:IfXingUrl}
+                {block:IfYahooUrl}
+                    <li class="social"><a href="{text:Yahoo Url}" target="_blank"><i class="fa fa-yahoo"></i></a></li>
+                {/block:IfYahooUrl}
+                {block:IfYoutubeUrl}
+                    <li class="social"><a href="{text:Youtube Url}" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                {/block:IfYoutubeUrl}
+            </ul>
+        </nav>
+    </header>
+    {block:IfShowMenu}
+    <nav class="mmenu">
+        <ul>
+        <li><a href="#sidr" id="launch-blog">Blog</a></li>
+        {block:HasPages}
+        {block:Pages}
+        <li><a href="{URL}">{Label}</a></li>
+        {/block:Pages} 
+        {/block:HasPages}
+        <li><a href="/archive">Archive</a></li>
+        </ul>
+    </nav>
+    {/block:IfShowMenu}
+    <div class="sdcloud-box">
+    {block:IfSpotifyPlaylistID}
+        <iframe width="100%" height="230" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{text:Spotify Playlist ID}&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
+    {/block:IfSpotifyPlaylistID}
+    {block:IfBuyItunesUrl}
+    <div class="buy-bt buy-itunes">
+        <a href="{text:Buy Itunes Url}" target="_blank">
+            <img src="http://static.tumblr.com/v7susgd/dTqn683xp/buy-itunes.png" alt="Buy on iTunes"/>
+        </a>
+    </div>
+    {/block:IfBuyItunesUrl}
+    {block:IfBuyGoogleplayUrl}
+    <div class="buy-bt buy-google">
+        <a href="{text:Buy Googleplay Url}" target="_blank">
+            <img src="http://static.tumblr.com/v7susgd/eGgn683ya/buy-google.png" alt="Buy on Google Play"/>
+        </a>
+    </div>
+    {/block:IfBuyGoogleplayUrl}
+    {block:IfBuyBeatportUrl}
+    <div class="buy-bt buy-beatport">
+        <a href="{text:Buy Beatport Url}" target="_blank">
+            <img src="http://static.tumblr.com/v7susgd/aR5n683yr/buy-beatport.png" alt="Buy on Beatport"/>
+        </a>
+    </div>
+    {/block:IfBuyBeatportUrl}
+    </div>
+    
+    </div>
+    
+    <article id="sidr" class="posts {TagsAsClasses}">
+
+        {block:TagPage}
+        	<h2 class="tagged-title">Posts tagged "{Tag}"</h2>
+        {/block:TagPage}
+        
+        {block:Posts} 
+        	
+        	{block:Text}
+        		<div class="post text">
+            	{block:Title}
+            	<h3><a href="{Permalink}">{Title}</a></h3>
+            	{/block:Title}{Body}
+        		</div>
+        	{/block:Text} 
+        	
+        	{block:Photo}
+        		<div class="post photo">
+            	<img src="{PhotoURL-250}" alt="{PhotoAlt}" />
+            	{block:Caption}
+            		<div class="caption">{Caption}</div>
+            	{/block:Caption}
+        		</div>
+        	{/block:Photo}
+
+        	{block:Panorama}
+        		<div class="post panorama">
+            	{LinkOpenTag}
+            	<img src="{PhotoURL-250}" alt="{PhotoAlt}" />{LinkCloseTag}
+            	{block:Caption}
+            		<div class="caption">{Caption}</div>
+            	{/block:Caption}
+        		</div>
+        	{/block:Panorama} 
+
+        	{block:Photoset}
+        		<div class="post photoset">
+            	{Photoset-250}
+            	{block:Caption}
+            		<div class="caption">{Caption}</div>
+            	{/block:Caption}
+        		</div>
+        	{/block:Photoset} 
+
+        	{block:Quote}
+        		<div class="post quote">
+            	<h3>"{Quote}"</h3>
+            	{block:Source}
+            		<div class="caption">{Source}</div>
+            	{/block:Source}
+        		</div>
+        	{/block:Quote}
+
+        	{block:Link}
+        		<div class="post link">
+            	<a href="{URL}" class="link" {Target}>{Name}</a>
+            	{block:Description}
+            		<div class="caption">{Description}</div>
+            	{/block:Description}
+        		</div>
+        	{/block:Link}
+
+        	{block:Chat}
+        		<div class="post chat">
+            	{block:Title}
+            	<h3><a href="{Permalink}">{Title}</a></h3>
+            	{/block:Title}
+            		<ul class="chat">
+                	{block:Lines}
+               			<li class="{Alt} user_{UserNumber}">
+                    	{block:Label}
+                    		<span class="label">{Label}</span>
+                    	{/block:Label}
+                   		{Line}
+                		</li>
+                	{/block:Lines}
+            		</ul>
+        		</div>
+        	{/block:Chat}
+
+        	{block:Video}
+        		<div class="post video">
+            	{Video-250}
+            	{block:Caption}
+            		<div class="caption">{Caption}</div>
+            	{/block:Caption}
+        		</div>
+        	{/block:Video}
+
+        	{block:Audio}
+        		<div class="post audio">
+            	{AudioEmbed-250}
+            	{block:Caption}
+            		<div class="caption">{Caption}</div>
+            	{/block:Caption}
+        		</div>
+            {/block:Audio} 
+
+        {block:Answer}
+        <div class="answer">
+            <img src="{AskerPortraitURL-40}">{Asker} {Question} {Answer}
+        </div>
+        {/block:Answer}
+
+        {block:PermalinkPage} 
+        	{block:HasTags}
+        		<ul class="tags">
+            	{block:Tags}
+            		<li><a href="{TagURL}">{Tag}</a></li>
+          		{/block:Tags}
+          	</ul>
+        	{/block:HasTags}
+
+        	<ul class="lks">
+            <li>{LikeButton}</li>
+       		</ul>
+
+        	<div class="comments"></div>
+        	{block:PostNotes}
+        		<div class="notes">
+            	{PostNotes}
+        		</div>
+        	{/block:PostNotes}
+        {/block:PermalinkPage} 
+
+    	{/block:Posts}
+    	
+    	<footer class="footer">
+        <nav class="tags">
+            <ul>
+        	    {block:PreviousPage}
+         	    <li><a href="{PreviousPage}">Previous</a></li>
+        	    {/block:PreviousPage}
+
+        	    {block:NextPage}
+                <li><a href="{NextPage}">Next</a></li>
+        	    {/block:NextPage}
+            </ul>
+        </nav>
+    </footer>
+    	
+    	
+    </article><!--end of article-->
+    
+    <div id="cycle-loader"><i class="fa fa-cog fa-spin"></i></div>
+    <div id="maximage">
+	{block:IfSlideshow1Image}
+	<li><img src="{image:Slideshow1}" alt="" width="1600" height="1000"/></li>
+	{/block:IfSlideshow1Image}
+	{block:IfSlideshow2Image}
+	<li><img src="{image:Slideshow2}" alt="" width="1600" height="1000"/></li>
+	{/block:IfSlideshow2Image}
+	{block:IfSlideshow3Image}
+	<li><img src="{image:Slideshow3}" alt="" width="1600" height="1000"/></li>
+	{/block:IfSlideshow3Image}
+	{block:IfSlideshow4Image}
+	<li><img src="{image:Slideshow4}" alt="" width="1600" height="1000"/></li>
+	{/block:IfSlideshow4Image}
+	{block:IfSlideshow5Image}
+	<li><img src="{image:Slideshow5}" alt="" width="1600" height="1000"/></li>
+	{/block:IfSlideshow5Image}
+	{block:IfSlideshow6Image}
+	<li><img src="{image:Slideshow6}" alt="" width="1600" height="1000"/></li>
+	{/block:IfSlideshow6Image}
+	{block:IfSlideshow7Image}
+	<li><img src="{image:Slideshow7}" alt="" width="1600" height="1000"/></li>
+	{/block:IfSlideshow7Image}
+	{block:IfSlideshow8Image}
+	<li><img src="{image:Slideshow8}" alt="" width="1600" height="1000"/></li>
+	{/block:IfSlideshow8Image}
+	{block:IfSlideshow9Image}
+	<li><img src="{image:Slideshow9}" alt="" width="1600" height="1000"/></li>
+	{/block:IfSlideshow9Image}
+	{block:IfSlideshow10Image}
+	<li><img src="{image:Slideshow10}" alt="" width="1600" height="1000"/></li>
+	{/block:IfSlideshow10Image}
+	</div>
+    
+    <script src='http://static.tumblr.com/v7susgd/TZun66hyp/jquery.js'></script>
+	<script src="http://static.tumblr.com/v7susgd/spen66hza/jquery.cycle.all.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://static.tumblr.com/v7susgd/LQan66hzq/jquery.maximage.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://static.tumblr.com/v7susgd/HHQn66m2c/jquery.sidr.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://static.tumblr.com/v7susgd/wzFn66r9p/jquery.mcustomscrollbar.concat.min.js"></script>
+		
+	<script type="text/javascript" charset="utf-8">
+		$(function(){
+			jQuery('#launch-blog').sidr({
+                name: 'sidr-existing-content',
+                source: '#sidr'
+            });
+			jQuery('#maximage').maximage({
+                cycleOptions: {
+                fx:'fade',
+                speed: 800,
+                timeout: 8000
+                },
+                onFirstImageLoaded: function(){
+                    jQuery('#cycle-loader').hide();
+                    jQuery('#maximage').fadeIn('fast');
+                }
+            });
+            jQuery(".wrapper").on("click",function(e) {
+                jQuery.sidr('close','sidr-existing-content');
+                return false;
+            });
+             jQuery(".sidr").mCustomScrollbar();
+		    if ( document.location.href.indexOf('post') > -1 ) {
+                jQuery.sidr('open','sidr-existing-content');
+            }
+		    if ( document.location.href.indexOf('page') > -1 ) {
+                jQuery.sidr('open','sidr-existing-content');
+            }
+		    if ( document.location.href.indexOf('tagged') > -1 ) {
+                jQuery.sidr('open','sidr-existing-content');
+            }
+		});
+	</script>
+
+    {block:IfGoogleAnalyticsID}
+    <script>
+    var _gaq = [
+        ['_setAccount', '{text:Google Analytics ID}'],
+        ['_trackPageview']
+    ];
+    (function(d, t) {
+        var g = d.createElement(t),
+            s = d.getElementsByTagName(t)[0];
+        g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g, s)
+    }(document, 'script'));
+    </script>
+    {/block:IfGoogleAnalyticsID}
+</body>
+</html>
