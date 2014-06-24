@@ -153,7 +153,7 @@
 		color:{color:Variant};
 		font-size:32px;
 	}
-	#maximage {display:none;position:fixed !important;}
+	#maximage {display:none;position:fixed !important;z-index:-9999;}
     .mc-hide-scrolls{overflow:hidden;}
     body .mc-cycle {height:100%;left:0;overflow:hidden;position:fixed;top:0;width:100%;z-index:-1;}
     div.mc-image {
@@ -523,34 +523,34 @@
     <div id="cycle-loader"><i class="fa fa-cog fa-spin"></i></div>
     <div id="maximage">
 	{block:IfSlideshow1Image}
-	<li><img src="{image:Slideshow1}" alt="" width="1600" height="1000"/></li>
+	<div><img src="{image:Slideshow1}" alt="" width="1600" height="1000"/></div>
 	{/block:IfSlideshow1Image}
 	{block:IfSlideshow2Image}
-	<li><img src="{image:Slideshow2}" alt="" width="1600" height="1000"/></li>
+	<div><img src="{image:Slideshow2}" alt="" width="1600" height="1000"/></div>
 	{/block:IfSlideshow2Image}
 	{block:IfSlideshow3Image}
-	<li><img src="{image:Slideshow3}" alt="" width="1600" height="1000"/></li>
+	<div><img src="{image:Slideshow3}" alt="" width="1600" height="1000"/></div>
 	{/block:IfSlideshow3Image}
 	{block:IfSlideshow4Image}
-	<li><img src="{image:Slideshow4}" alt="" width="1600" height="1000"/></li>
+	<div><img src="{image:Slideshow4}" alt="" width="1600" height="1000"/></div>
 	{/block:IfSlideshow4Image}
 	{block:IfSlideshow5Image}
-	<li><img src="{image:Slideshow5}" alt="" width="1600" height="1000"/></li>
+	<div><img src="{image:Slideshow5}" alt="" width="1600" height="1000"/></div>
 	{/block:IfSlideshow5Image}
 	{block:IfSlideshow6Image}
-	<li><img src="{image:Slideshow6}" alt="" width="1600" height="1000"/></li>
+	<div><img src="{image:Slideshow6}" alt="" width="1600" height="1000"/></div>
 	{/block:IfSlideshow6Image}
 	{block:IfSlideshow7Image}
-	<li><img src="{image:Slideshow7}" alt="" width="1600" height="1000"/></li>
+	<div><img src="{image:Slideshow7}" alt="" width="1600" height="1000"/></div>
 	{/block:IfSlideshow7Image}
 	{block:IfSlideshow8Image}
-	<li><img src="{image:Slideshow8}" alt="" width="1600" height="1000"/></li>
+	<div><img src="{image:Slideshow8}" alt="" width="1600" height="1000"/></div>
 	{/block:IfSlideshow8Image}
 	{block:IfSlideshow9Image}
-	<li><img src="{image:Slideshow9}" alt="" width="1600" height="1000"/></li>
+	<div><img src="{image:Slideshow9}" alt="" width="1600" height="1000"/></div>
 	{/block:IfSlideshow9Image}
 	{block:IfSlideshow10Image}
-	<li><img src="{image:Slideshow10}" alt="" width="1600" height="1000"/></li>
+	<div><img src="{image:Slideshow10}" alt="" width="1600" height="1000"/></div>
 	{/block:IfSlideshow10Image}
 	</div>
     
@@ -579,7 +579,6 @@
             });
             jQuery(".wrapper").on("click",function(e) {
                 jQuery.sidr('close','sidr-existing-content');
-                return false;
             });
              jQuery(".sidr").mCustomScrollbar();
 		    if ( document.location.href.indexOf('post') > -1 ) {
